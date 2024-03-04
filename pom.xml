@@ -11,9 +11,11 @@
   <url>http://maven.apache.org</url>
 
   <properties>
-  <maven.complier.source>1.6</maven.complier.source>
-  <maven.complier.target>1.6</maven.complier.target>
+  
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <suitexml>testng.xml</suitexml>
+    <maven.complier.source>1.6</maven.complier.source>
+  <maven.complier.target>1.6</maven.complier.target>
   </properties>
   
   
@@ -26,7 +28,7 @@
         <version>3.2.5</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>testng.xml</suiteXmlFile>
+            <suiteXmlFile>${suitexml}</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
