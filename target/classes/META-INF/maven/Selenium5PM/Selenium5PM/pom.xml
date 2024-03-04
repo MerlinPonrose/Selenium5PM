@@ -11,11 +11,10 @@
   <url>http://maven.apache.org</url>
 
   <properties>
-  
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <suitexml>testng.xml</suitexml>
-    <maven.complier.source>1.6</maven.complier.source>
+  <maven.complier.source>1.6</maven.complier.source>
   <maven.complier.target>1.6</maven.complier.target>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <suiteXmlFile>testng.xml</suiteXmlFile>
   </properties>
   
   
