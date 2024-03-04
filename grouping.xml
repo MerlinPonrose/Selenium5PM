@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<groups>
+
+<run>
+
+<exclude name="Regression"></exclude>
+<exclude name="sanity"></exclude>
+<exclude name="test"></exclude>
+</run>
+</groups>
+
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.selenium.testng.TestNG_DependsOnMethod"/>
+      <class name="com.selenium.testng.TestNG_Enabled"/>
+      <class name="com.selenium.testng.TestNG_Frame"/>
+      <class name="com.selenium.testng.Test"/>
+      <class name="com.selenium.testng.TestNG_Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

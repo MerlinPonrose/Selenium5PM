@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  
+ <parameter name="emaill"  value= "test1@gmail.com"></parameter>
+  <parameter name="passwordd" value="123456"></parameter>
+  
+  <classes>
+<class name ="com.selenium.testng.TestNG_Parameter"/>
+</classes>
+
+  </test> <!-- Test -->
+  
+  
+   <test thread-count="5" name="Test1">
+  
+ <parameter name="emaill"  value= "test2@gmail.com"></parameter>
+  <parameter name="passwordd" value="1234"></parameter>
+  
+  <classes>
+<class name ="com.selenium.testng.TestNG_Parameter"/>
+</classes>
+
+  </test> <!-- Test -->
+  
+  
+  
+   <test thread-count="5" name="Test2">
+  
+ <parameter name="emaill"  value= "test3@gmail.com"></parameter>
+  <parameter name="passwordd" value="123467"></parameter>
+  
+  <classes>
+<class name ="com.selenium.testng.TestNG_Parameter"/>
+</classes>
+
+  </test> <!-- Test -->
+  
+    
+   <test thread-count="5" name="Test3">
+  
+ <parameter name="emaill"  value= "test4@gmail.com"></parameter>
+  <parameter name="passwordd" value="1467"></parameter>
+  
+  <classes>
+<class name ="com.selenium.testng.TestNG_Parameter"/>
+</classes>
+
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->
